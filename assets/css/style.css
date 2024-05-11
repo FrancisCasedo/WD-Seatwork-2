@@ -27,15 +27,15 @@ section.academic*{
 header {
     width: 100%;
     position:fixed;
-    background-color: rgba(23, 188, 51, 0.497);
+    background-color: rgba(0, 140, 255, 0.366);
     z-index: 20;
     & nav{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 18px;
+        justify-content: space-evenly;
         & h1{
-            font-size: xx-large;
+            font-size: 30px;
         }
 
         & button{
@@ -47,7 +47,7 @@ header {
             transition: .3s ease-in-out;
 
             &:hover{
-                color:wheat;
+                color:rgb(13, 167, 214);
             }
         }
     }
@@ -66,10 +66,9 @@ section.hero{
         position: absolute;
         left: 10;
         top: 10;
-        width: 50%;
+        width: 80%;
         object-fit: cover;
-        height: 100vh;
-        opacity: 90%;
+        height: 90vh;
         z-index: -1;
     }
 
@@ -83,6 +82,7 @@ section.hero{
         padding: 1.5rem;
         margin: 1rem;
         gap: 14px;
+        opacity: 80%;
         & h3{
             font-size: 3rem;
         }
@@ -104,7 +104,7 @@ section.hero{
         font-size: 2rem;
         font-weight: 20px;
         background-color: rgb(35, 162, 162);
-
+        color: yellow;
     &:hover{
         transform: scale(110%) translateY(-4px);
         box-shadow: black 0px 15px 15px -7px;
@@ -136,12 +136,10 @@ section.academic{
         color: goldenrod;
         font-size: 20px;
     }
-    & div{
+    & div div{
         font-size: 12px;
+        padding: 6px 3px;
+        grid-template-rows: 15px 15px;
         outline: solid;
-
-        & div{
-            grid-template-columns: 10px;
         }
     }
-}
