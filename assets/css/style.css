@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* Dev */
+
+header,
+header * {
+    outline: 1px dashed blue;
+}
+section.hero,
+section.hero *{
+    outline: 1px dashed red;
+}
+
+section.academic,
+section.academic*{
+    outline: 5px solid;
+}
+
+/* Dep */
+
+header {
+    width: 100%;
+    position:fixed;
+    background-color: rgba(23, 188, 51, 0.497);
+    z-index: 20;
+    & nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        & h1{
+            font-size: xx-large;
+        }
+
+        & button{
+            border: none;
+            background: none;
+            height: 100%;
+            font-size: medium;
+            font-weight: 600;
+            transition: .3s ease-in-out;
+
+            &:hover{
+                color:wheat;
+            }
+        }
+    }
+}
+
+section.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+
+    & img{
+        position: absolute;
+        left: 10;
+        top: 10;
+        width: 50%;
+        object-fit: cover;
+        height: 100vh;
+        opacity: 90%;
+        z-index: -1;
+    }
+
+    & div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+        background:none;
+        padding: 1.5rem;
+        margin: 1rem;
+        gap: 14px;
+        & h3{
+            font-size: 3rem;
+        }
+
+        & h2{
+            font-size: 3rem;
+        }
+
+    & p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    & button{
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: .32s ease-out;
+        font-size: 2rem;
+        font-weight: 20px;
+        background-color: rgb(35, 162, 162);
+
+    &:hover{
+        transform: scale(110%) translateY(-4px);
+        box-shadow: black 0px 15px 15px -7px;
+        
+    }
+    }
+}
+}
+
+section.academic{
+    height: 60vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem 1rem;
+
+    & h4{
+        color: rgba(0, 106, 255, 0.603);
+        font-size: 20px;
+    }
+
+    & h5{
+        color: rgba(189, 36, 36, 0.531);
+        font-size: 20px;
+    }
+
+    & h6{
+        color: goldenrod;
+        font-size: 20px;
+    }
+    & div{
+        font-size: 12px;
+        outline: solid;
+
+        & div{
+            grid-template-columns: 10px;
+        }
+    }
+}
