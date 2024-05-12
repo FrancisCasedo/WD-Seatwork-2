@@ -10,11 +10,11 @@ html {
 
 header,
 header * {
-    outline: 1px dashed blue;
+
 }
 section.hero,
 section.hero *{
-    outline: 1px dashed red;
+ 
 }
 
 section.academic,
