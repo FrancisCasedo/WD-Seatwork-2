@@ -39,7 +39,7 @@ header {
             transition: .3s ease-in-out;
 
             &:hover{
-                color:rgb(13, 167, 214);
+                color:rgb(13, 167, 214);;
             }
         }
     }
