@@ -4,21 +4,19 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/FrancisCasedo/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/luxury-letter-f-logo-template-in-gold-color-modern-trendy-initial-luxury-f-letter-logo-design-royal-premium-letter-f-logo-design-template-vector.jpg" alt="Nyebe" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 2</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Seatwork 2
+  A simple resume
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
+
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
 
@@ -55,9 +53,9 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+<!-- TODO: Change/add before submitting -->
+
+The project is a simple resume that shows my personal information,my educational background, skills and hobbies. This project is meant to be submitted as my midterms for Web Design with Client-Side Scripting. The languages used are html and css for now
 
 Guiding Question:
 - What is the project
@@ -111,4 +109,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| None so far | Sample purpose would be here like this and this is the example of what it is. |  |
