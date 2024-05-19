@@ -28,7 +28,7 @@ section.Personal*{
 header {
     width: 100%;
     position:fixed;
-    background-color: rgba(0, 128, 0, 0.22);
+    background-color: blanchedalmond;
     z-index: 20;
     & nav{
         display: flex;
@@ -47,7 +47,7 @@ header {
             font-size: 20px;
 
             &:hover{
-                color:rgba(243, 148, 7, 0.477);
+                color:rgba(29, 167, 198, 0.359);
             }
         }
     }
@@ -82,7 +82,7 @@ section.Header{
         padding: 1rem;
         margin: 1rem;
         gap: 14px;
-        opacity: 80%;
+        opacity: 100%;
         & h3{
             font-size: 3rem;
         }
