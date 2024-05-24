@@ -53,28 +53,16 @@
 
 ## Overview
 
-<!-- TODO: Change/add before submitting -->
 
-The project is a simple resume that shows my personal information,my educational background, skills and hobbies. This project is meant to be submitted as my midterms for Web Design with Client-Side Scripting. The languages used are html and css for now
+The project is a simple resume that shows my personal information,my educational background, skills and hobbies. This project is meant to be submitted as my midterms for Web Design with Client-Side Scripting. The Programming languages that are used are HTML and CSS.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules and Principles
 1. Always use ***WD-*** in the Title of the Project for the Subject
@@ -109,4 +97,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| None so far | Sample purpose would be here like this and this is the example of what it is. |  |
+| None were used |       |         |
