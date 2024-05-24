@@ -13,170 +13,94 @@ a:hover{
     color:aliceblue;
 }
 
-section.Education,
-section.Education*{
-    outline: 5px solid;
-}
-
-section.Personal,
-section.Personal*{
-    outline: 5px solid;
-}
 
 /* Dep */
 
 header {
+    top: 0;
     width: 100%;
     position:fixed;
-    background-color: blanchedalmond;
+    background-color: rgba(42, 74, 70);
     z-index: 20;
     & nav{
         display: flex;
         justify-content: center;
         align-items: center;
         justify-content: space-evenly;
-        height: 100px;
+        height: 50px;
+
         & h1{
-            font-size: 35px;
+            font-size: 25px;
         }
 
         & a{
             text-decoration: none;
-            color: black;
+            color: white;
             transition: color 0.5s ease, text-dectoration 0.5s ease;
             font-size: 20px;
 
             &:hover{
-                color:rgba(29, 167, 198, 0.359);
+                color:gold;
             }
         }
     }
 }
 
-section.Header{
-    height: 100vh;
+section.Front{
+
+    margin-top: 50px;
+    height: 39vh;
+    width: 100%;
+    padding: 0;
     display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    position: relative;
+    align-items: center;
     justify-content: center;
-    & img{
-        padding-top: 39%;
-        position: absolute;
-        width: 100%;
-        object-fit: cover;
-        height: auto;
-        z-index: -1;
-
-    }
-
-
+    text-align: center;
+    z-index: -1;
+    background-color: rgb(230, 245, 220) ;
     & div{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 10vh;
-        background:none;
+        height: auto;
         padding: 1rem;
         margin: 1rem;
         gap: 14px;
         opacity: 100%;
+        background-color: white;
+
         & h3{
-            font-size: 3rem;
+            justify-self: center;
+            font-size: 40px;
         }
-
-        & h2{
-            font-size: 3rem;
-        }
-
-    & p{
-        font-size: 1.2rem;
-        text-align: center;
-    }
-    & button{
-        padding: 10px 20px;
-        border-radius: 5px;
-        border: none;
-        cursor: pointer;
-        transition: .32s ease-out;
-        font-size: 2rem;
-        font-weight: 20px;
-        background-color: rgb(35, 162, 162);
-        color: yellow;
-    &:hover{
-        transform: scale(110%) translateY(-4px);
-        box-shadow: black 0px 15px 15px -7px;
-
-    }
-    }
-}
+     }
 }
 
-section.Personal{
-    flex-direction: column;
-    padding: 1rem 2rem;
-    display: flex;
-    & h1{
-        color: rgba(150, 67, 227, 0.853);
-        font-size: 30px;
-        align-self:center;
-        font-weight: normal;
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
+    & section.button{
+        display: flex;
+        justify-content: space-evenly;
+        outline: 10px;
+        background-color: rgba(42, 74, 70);
+        outline: 2px solid;
+        padding: 20px;
+        z-index: 2;
+        height: 70px;
+        & button{
+            display: flex;
+            justify-content: center;
+            padding: 15px 30px;
+            border-radius: 5px ;
+            border-color: white;
+            width: 20%;
+            transition: 0.32s ease-out;
+            font-size: 2rem;
+            background-color: rgba(42, 74, 70);
+            border-color: white;
+            color: rgb(255, 255, 255);
 
-    & div{
-        outline: solid;
-        padding: 10px 1rem;
-        font-size: 12px;
-        background-color:rgba(29, 167, 198, 0.359);
-        & h2{
-            font-weight: normal;
-        }
-}
-}
-
-section.Education{
-    height: 80px;
-    display: flex;
-    width: auto;
-    flex-direction: column;
-    padding: 1rem 2rem;
-
-    & h2{
-    font-weight: normal;
-    }
-
-    & h4{
-        color: rgba(0, 106, 255, 0.603);
-        font-size: 20px;
-        padding: 10px 10px;
-    }
-
-    & h5{
-        color: rgba(189, 36, 36, 0.531);
-        font-size: 20px;
-        padding-bottom: 10px;
-    }
-
-    & h6{
-        color: goldenrod;
-        font-size: 20px;
-        padding: 10px 10px;
-    }
-
-    & h7{
-        align-self: center;
-        font-size: 30px;
-        color: rgba(18, 103, 164, 0.639);
-        padding: 10px 10px;
-    }
-
-    & div div{
-        font-size: 12px;
-        padding: 10px 1rem;
-        outline: solid;
-        background-color: rgba(29, 167, 198, 0.359);
+            &:hover{
+                transform: scale(110%) translateY(-4px);
+                box-shadow: black 0px 15px 15px -7px;
+            }
         }
     }
+
+
+
