@@ -5,7 +5,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/FrancisCasedo/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/luxury-letter-f-logo-template-in-gold-color-modern-trendy-initial-luxury-f-letter-logo-design-royal-premium-letter-f-logo-design-template-vector.jpg" alt="Nyebe" width="130" height="100">
   </a>
   <h3 align="center">Seatwork 2</h3>
@@ -17,15 +16,15 @@
 <br />
 
 
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+
+![](https://visit-counter.vercel.app/counter.png?page=FrancisCasedo/WD-Seatwork-2)
 
 ---
 
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -97,4 +96,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| None were used |       |         |
+| N/A |  N/A     |   N/A      |
