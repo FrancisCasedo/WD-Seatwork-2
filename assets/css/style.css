@@ -81,11 +81,11 @@ section.Front{
         outline: 2px solid;
         padding: 20px;
         z-index: 2;
-        height: 70px;
+        height: 80px;
         & button{
             display: flex;
             justify-content: center;
-            padding: 15px 30px;
+            padding: 20px 30px;
             border-radius: 5px ;
             border-color: white;
             width: 20%;
