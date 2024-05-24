@@ -32,7 +32,7 @@ header {
         height: 50px;
 
         & h1{
-            font-size: 25px;
+            font-size: 20px;
             color: white;
         }
 
@@ -52,7 +52,7 @@ header {
 
 section.Front{
        margin-top: 50px;
-       height: 39vh;
+       height: 45vh;
        width: 100%;
        padding: 0;
        display: flex;
@@ -71,7 +71,7 @@ section.Front{
    
        & h3{
                justify-self: center;
-               font-size: 40px;
+               font-size: 30px;
        }
     }
 }
@@ -84,7 +84,7 @@ section.Front{
     outline: 2px solid;
     padding: 20px;
     z-index: 2;
-    height: 70px;
+    height: 30px;
 }
 
 section.Education{
@@ -97,12 +97,12 @@ section.Education{
     
     & h1{
         color: rgb(34, 139, 34);
-        font-size: 25px;
+        font-size: 20px;
         padding: 10px;
     }
     
     & h2{
-        font-size: 40px;
+        font-size: 30px;
         align-self:center;
         font-weight: normal;
         padding-bottom: 10px;
@@ -112,7 +112,7 @@ section.Education{
     & h3{
         padding-top: 20px;
         padding-bottom: 20px;
-        font-size: 35px;
+        font-size: 25px;
     }
     & p{
         color: rgb(34, 139, 34);

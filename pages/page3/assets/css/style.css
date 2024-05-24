@@ -32,7 +32,7 @@ header {
         height: 50px;
 
         & h1{
-            font-size: 25px;
+            font-size: 20px;
             color: white;
         }
 
@@ -49,30 +49,31 @@ header {
     }
 }
 
-section.Front{
-    margin-top: 50px;
-    height: 39vh;
-    width: 100%;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    z-index: -1;
-    background-color: rgb(230, 245, 220) ;
-    & div{
-    height: auto;
-        padding: 1rem;
-        margin: 1rem;
-        gap: 14px;
-        opacity: 100%;
-        background-color: white;
 
-    & h3{
-            justify-self: center;
-            font-size: 40px;
+section.Front{
+       margin-top: 50px;
+       height: 45vh;
+       width: 100%;
+       padding: 0;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       z-index: -1;
+       background-color: rgb(230, 245, 220) ;
+       & div{
+       height: auto;
+           padding: 1rem;
+           margin: 1rem;
+           gap: 14px;
+           opacity: 100%;
+           background-color: white;
+   
+       & h3{
+               justify-self: center;
+               font-size: 30px;
+       }
     }
- }
 }
 
 & section.Row{
@@ -83,11 +84,10 @@ section.Front{
     outline: 2px solid;
     padding: 20px;
     z-index: 2;
-    height: 70px;
-}   
+    height: 30px;
+}
 
 section.Skills{
-
     height: 80px;
     display: flex;
     width: auto;
@@ -95,7 +95,7 @@ section.Skills{
     padding: 1rem 2rem;
     
     & h1{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: normal;
         padding-bottom: 10px;
         padding-top: 15px;
@@ -105,7 +105,7 @@ section.Skills{
         padding-bottom:  10px;
         padding-left: 10px;
         padding-top: 10px;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     & div{
