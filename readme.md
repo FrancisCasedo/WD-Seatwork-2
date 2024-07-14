@@ -93,7 +93,6 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
 | N/A |  N/A     |   N/A      |
